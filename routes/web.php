@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Admin\ShopsController;
+
 
 // Home route
 Route::get('/home', function () {
@@ -17,6 +19,24 @@ Route::get('shop/{shop}', 'HomeController@show')->name('shop');
 
 // Authentication routes
 Auth::routes();
+
+// Shops resource route
+
+Route::get('/dashboard', 'AdminController@index')->name('dashboard');
+Route::get('/attractions', 'AttractionsController@index')->name('attractions');
+Route::get('/attractions/create', 'AttractionsController@create')->name('attractions.create');
+Route::post('/attractions/store', 'AttractionsController@store')->name('attractions.store');
+Route::delete('shops/destroy', 'AttractionsController@massDestroy')->name('shops.massDestroy');
+Route::delete('/attractions/{shop}', 'AttractionsController@destroy')->name('attractions.destroy');
+
+
+
+ 
+//  // Shops
+//  Route::delete('shops/destroy', 'ShopsController@massDestroy')->name('shops.massDestroy');
+//  Route::post('shops/media', 'ShopsController@storeMedia')->name('shops.storeMedia');
+//  Route::resource('shops', 'ShopsController');
+
 
 // Admin routes with authentication and middleware
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth']], function () {
