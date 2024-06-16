@@ -26,9 +26,16 @@ Route::get('/dashboard', 'AdminController@index')->name('dashboard');
 Route::get('/attractions', 'AttractionsController@index')->name('attractions');
 Route::get('/attractions/create', 'AttractionsController@create')->name('attractions.create');
 Route::post('/attractions/store', 'AttractionsController@store')->name('attractions.store');
-Route::delete('shops/destroy', 'AttractionsController@massDestroy')->name('shops.massDestroy');
 Route::delete('/attractions/{shop}', 'AttractionsController@destroy')->name('attractions.destroy');
+Route::get('/attractions/{shop}', 'AttractionsController@show')->name('attractions.show');
 
+Route::get('/attractions/edit/{shop}', 'AttractionsController@edit')->name('attractions.edit');
+Route::put('/attractions/update/{shop}', 'AttractionsController@update')->name('attractions.update');
+
+Route::get('/attractions/{shop}', 'AttractionsController@showcase')->name('attraction');
+
+
+//attractions.edit  attractions.update
 
 
  

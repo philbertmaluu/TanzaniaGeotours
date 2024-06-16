@@ -110,7 +110,7 @@
 
               <div class="credits">
 
-                Designed by <a href="#">Tinito Visuals</a>
+                Designed by <a href="#"> Visuals</a>
               </div>
 
             </div>

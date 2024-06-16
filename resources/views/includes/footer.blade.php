@@ -5,7 +5,7 @@
     </div>
     <div class="credits">
      
-      Designed by <a href="#">Tinito Visious</a>
+      Designed by <a href="ecgaula@gmail.com"> Visious</a>
     </div>
   </footer><!-- End Footer -->
 

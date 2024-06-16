@@ -36,10 +36,10 @@
                 <span class="sitename">Tanzania GeoTourism</span>
             </a>
             <div class="footer-contact pt-3">
-                <p>A108 Adam Street</p>
-                <p>New York, NY 535022</p>
-                <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                <p><strong>Email:</strong> <span>info@example.com</span></p>
+                <p>Makongo Street</p>
+                <p>Dar es salaam, Tanzania</p>
+                <p class="mt-3"><strong>Phone:</strong> <span>+255 653 495 586</span></p>
+                <p><strong>Email:</strong> <span>ecgaula@gmail.com</span></p>
             </div>
         </div>
 
@@ -82,7 +82,7 @@
             Reserved</span></p>
     <div class="credits">
 
-        Designed by <a href="javascript:void()">Tinito Visuals</a>
+        Designed by <a href="ecgaula@gmail.com"> Visuals</a>
     </div>
 </div>
 

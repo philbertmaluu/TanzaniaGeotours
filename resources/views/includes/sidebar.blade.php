@@ -2,7 +2,7 @@
   <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
-
+    @if($roleId == 1)
       <li class="nav-item">
         <a class="nav-link " href="{{ url('dashboard')}}">
           <i class="bi bi-grid"></i>
@@ -56,8 +56,33 @@
           <span>Roles</span>
         </a>
       </li><!-- End Login Page Nav -->
+    @else
+
+    <li class="nav-item">
+        <a class="nav-link " href="{{ url('dashboard')}}">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="javascript:void()">
+        <i class="bi bi-airplane-engines"></i>
+          <span>Bookings</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-heading">Settings</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="javascript:void()">
+        <i class="bi bi-gear-wide-connected"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Register Page Nav -->
 
 
+    @endif
     </ul>
 
   </aside><!-- End Sidebar-->

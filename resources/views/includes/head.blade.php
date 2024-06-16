@@ -8,39 +8,16 @@
   </a>
   <i class="bi bi-list toggle-sidebar-btn"></i>
 </div><!-- End Logo -->
-
-
-
 <nav class="header-nav ms-auto">
   <ul class="d-flex align-items-center">
 
-    
-
     <li class="nav-item dropdown">
-
-
       <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
-       
-        
-
-       
-
-       
-
-        
-
-        
-
       </ul><!-- End Notification Dropdown Items -->
 
     </li><!-- End Notification Nav -->
 
     <li class="nav-item dropdown">
-
-     
-
-    
-
     </li><!-- End Messages Nav -->
 
     <li class="nav-item dropdown pe-3">

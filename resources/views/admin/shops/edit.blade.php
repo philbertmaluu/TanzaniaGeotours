@@ -141,7 +141,7 @@
 <script src="/js/mapInput.js"></script>
 <script>
     var uploadedPhotosMap = {}
-Dropzone.options.photosDropzone = {
+    Dropzone.options.photosDropzone = {
     url: '{{ route('admin.shops.storeMedia') }}',
     maxFilesize: 2, // MB
     acceptedFiles: '.jpeg,.jpg,.png,.gif',
@@ -170,7 +170,7 @@ Dropzone.options.photosDropzone = {
       $('form').find('input[name="photos[]"][value="' + name + '"]').remove()
     },
     init: function () {
-@if(isset($shop) && $shop->photos)
+ @if(isset($shop) && $shop->photos)
       var files =
         {!! json_encode($shop->photos) !!}
           for (var i in files) {
@@ -180,7 +180,7 @@ Dropzone.options.photosDropzone = {
           file.previewElement.classList.add('dz-complete')
           $('form').append('<input type="hidden" name="photos[]" value="' + file.file_name + '">')
         }
-@endif
+   @endif
     },
      error: function (file, response) {
          if ($.type(response) === 'string') {

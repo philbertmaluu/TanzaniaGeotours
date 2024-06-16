@@ -85,4 +85,19 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Role::class);
     }
+
+    public function hasRole($roleId)
+    {
+        return $this->roles()->where('id', $roleId)->exists();
+    }
+
+    public function getRoleId()
+    {
+        // Assuming you want to get the first role ID of the user for simplicity
+        $role = $this->roles()->first();
+        return $role ? $role->id : null;
+    }
+
+
+
 }

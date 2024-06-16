@@ -1,0 +1,24 @@
+# Query: tinito
+# ContextLines: 1
+
+4 results - 4 files
+
+resources/views/auth/login.blade.php:
+  112  
+  113:                 Designed by <a href="ecgaula@gmail.com">Tinito Visuals</a>
+  114                </div>
+
+resources/views/auth/register.blade.php:
+  127                  
+  128:                 Designed by <a href="ecgaula@gmail.com">Tinito Visuals</a>
+  129                </div>
+
+resources/views/includes/footer.blade.php:
+  7       
+  8:       Designed by <a href="ecgaula@gmail.com">Tinito Visious</a>
+  9      </div>
+
+resources/views/partials/footer.blade.php:
+  84  
+  85:         Designed by <a href="ecgaula@gmail.com">Tinito Visuals</a>
+  86      </div>

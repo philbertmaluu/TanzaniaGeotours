@@ -271,8 +271,8 @@ use Illuminate\Support\Str;
                     <div class="info-item" data-aos="fade" data-aos-delay="200">
                         <i class="bi bi-geo-alt"></i>
                         <h3>Address</h3>
-                        <p>A108 Adam Street</p>
-                        <p>New York, NY 535022</p>
+                        <p>Makongo Street</p>
+                        <p>Dar es salaam, Tanzania</p>
                     </div>
                 </div><!-- End Info Item -->
 
@@ -280,8 +280,8 @@ use Illuminate\Support\Str;
                     <div class="info-item" data-aos="fade" data-aos-delay="300">
                         <i class="bi bi-telephone"></i>
                         <h3>Call Us</h3>
-                        <p>+1 5589 55488 55</p>
-                        <p>+1 6678 254445 41</p>
+                        <p>+255 653 495 586</p>
+                        <p>+255 653 495 586</p>
                     </div>
                 </div><!-- End Info Item -->
 
@@ -289,8 +289,8 @@ use Illuminate\Support\Str;
                     <div class="info-item" data-aos="fade" data-aos-delay="400">
                         <i class="bi bi-envelope"></i>
                         <h3>Email Us</h3>
-                        <p>info@example.com</p>
-                        <p>contact@example.com</p>
+                        <p>ecgaula@gmail.com</p>
+                        <p>ecgaula@gmail.com</p>
                     </div>
                 </div><!-- End Info Item -->
 
@@ -358,7 +358,7 @@ use Illuminate\Support\Str;
 <script defer>
 	function initialize() {
 		var mapOptions = {
-			zoom: 12,
+			zoom: 8,
 			minZoom: 6,
 			maxZoom: 17,
 			zoomControl:true,

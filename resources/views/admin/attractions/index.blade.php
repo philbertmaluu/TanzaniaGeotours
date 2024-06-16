@@ -72,7 +72,7 @@
 
 <main id="main" class="main">
     <div class="pagetitle">
-        <h1>Geo Attractions</h1>
+        <h1>Attractions</h1>
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -131,13 +131,11 @@
                                         </td>
                                         <td>
                                            
-                                            <a class="btn btn-xs btn-primary" href="{{ route('admin.shops.show', $shop->id) }}">
+                                            <a class="btn btn-xs btn-primary" href="{{ route('attractions.show', $shop->id) }}">
                                                 {{ trans('global.view') }}
                                             </a>
                                            
-
-                                            
-                                            <a class="btn btn-xs btn-info" href="{{ route('attractions.destroy', $shop->id) }}">
+                                            <a class="btn btn-xs btn-info" href="{{ route('attractions.edit', $shop->id) }}">
                                                 {{ trans('global.edit') }}
                                             </a>
                                            
